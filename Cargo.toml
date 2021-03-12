@@ -7,5 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = { git = "https://github.com/bevyengine/bevy", rev = "3adcba9461f79e7f63fb190e9606f522e9ab95cd" }
+bevy = {git = "https://github.com/bevyengine/bevy", branch = "main"}
 bevy-tick-timers = "0.1.1"
+bevy_prototype_lyon = {git = "https://github.com/Nilirad/bevy_prototype_lyon", rev = "69ccfef3baa99f5b977f476a68f9f323f99f2eaa"}
+itertools = "0.10"
